@@ -534,7 +534,7 @@ div.error-wrapper{
 div.error{
     width: 175px;
     height: 25px;
-    background: #ffdfdf;
+    background: #fafafa;
     border-radius: 5px;
 }
 div.error h4.err{
