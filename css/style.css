@@ -1,5 +1,7 @@
 /* Global */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,800');
+
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -571,7 +573,16 @@ footer .copyright{
 }   
 
 
+/* Form Etc */
+ 
 
+/* Selector */
+select#reg2, select#reg3, select#reg4a, select#reg4b,
+select#reg5, select#reg6, select#reg7, select#reg8, select#reg9
+select#reg10, select#reg11, select#reg12, select#reg13, select#ncr, select#car,
+select#armm{
+    display: none;
+}
 
 
 /* Keyframes and Animations */
@@ -598,10 +609,3 @@ footer .copyright{
         border-width: 100%;
     }
 }
-
-@media (max-width: 768px){
-    body{
-        display: none;
-    }
-}
-    

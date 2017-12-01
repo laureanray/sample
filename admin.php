@@ -237,35 +237,86 @@
                             <h5 class="label-form-small"> Nationality </h5>
                             <input type="radio" name="sex" value="male" required > Filipino  <input type="radio" name="sex" value="male" required > Others    
                             <h5 class="label-form-small"> Residential Address </h5>
-                            (Residential) Region    <select class="select-short" name="residential_region"  required >
-                                
-                                <option value="2003" id="options">REGION I (Ilocos Region)</option>
-                                <option value="2002" id="options">REGION II (Cagayan Valley)</option>
-                                <option value="2001" id="options">REGION III</option>
-                                <option value="2000" id="options">REGION IV-A</option>
-                                <option value="1999" id="options">REGION IV-B</option>
-                                <option value="1998" id="options">REGION V</option>
-                                <option value="1997" id="options">REGION VI</option>
-                                <option value="1996" id="options">REGION VII</option>
-                                <option value="1995" id="options">REGION VIII</option>
-                                <option value="1994" id="options">REGION IX</option>
-                                <option value="1993" id="options">REGION X</option>
-                                <option value="1992" id="options">REGION XI</option>
-                                <option value="1991" id="options">REGION XII</option>
-                                <option value="1990" id="options">REGION XIII</option>						
-                                <option value="1989" id="options">NCR</option>
-                                <option value="1989" id="options">CAR</option>
-                                <option value="1989" id="options">ARMM</option>
+
+                            (Residential) Region   
+                             <select class="select-short" name="residential_region"  id="selectorRegion" required >   
+                             <option value="ncr" id="ncr">NCR</option>
+                                <option value="car" id="car">CAR</option>                    
+                                <option value="region1" id="region1">REGION I (Ilocos Region)</option>
+                                <option value="region2" id="region2">REGION II (Cagayan Valley)</option>
+                                <option value="region3" id="region3">REGION III</option>
+                                <option value="region4a" id="region4a">REGION IV-A</option>
+                                <option value="region4b" id="region4b">REGION IV-B</option>
+                                <option value="region5" id="region5">REGION V</option>
+                                <option value="region6" id="region6">REGION VI</option>
+                                <option value="region7" id="region7">REGION VII</option>
+                                <option value="region8" id="region8">REGION VIII</option>
+                                <option value="region9" id="region9">REGION IX</option>
+                                <option value="region10" id="region10">REGION X</option>
+                                <option value="region11" id="region11">REGION XI</option>
+                                <option value="region12" id="region12">REGION XII</option>
+                                <option value="region13" id="region13">REGION XIII</option>						
+                              
+                                <option value="armm" id="armm">ARMM</option>
                         </select>
 
 
-                        <select class="select-short" name="residential_region"  required >
-                                
+                        <select class="select-short" name="residential_region" id="reg1" required >
                                 <option value="2003" id="options">Ilocos Norte</option>
                                 <option value="2002" id="options">Ilocus Sur</option>
                                 <option value="2001" id="options">La Union</option>
                                 <option value="2000" id="options">Panagasinan</option>
+                        </select>
 
+                        <select class="select-short" name="residential_region" id="reg2" required >
+                                <option value="2003" id="options">Batanes</option>
+                                <option value="2002" id="options">Cagayan</option>
+                                <option value="2001" id="options">Isabela</option>
+                                <option value="2000" id="options">Nueva Vizcaya</option>
+                                <option value="2000" id="options">Quirino</option>
+                        </select>
+
+                        <select class="select-short" name="residential_region" id="reg3" required >
+                                <option value="2003" id="options">Aurora</option>
+                                <option value="2002" id="options">Bataan</option>
+                                <option value="2001" id="options">Bulacan</option>
+                                <option value="2000" id="options">Nueva Ecija</option>
+                                <option value="2000" id="options">Pampanga</option>
+                                <option value="2000" id="options">Tarlac</option>
+                                <option value="2000" id="options">Zambales</option>
+                        </select>
+                        
+                        <select class="select-short" name="residential_region" id="reg4a" required >
+                                <option value="2003" id="options">Batangas</option>
+                                <option value="2002" id="options">Cavite</option>
+                                <option value="2001" id="options">Laguna</option>
+                                <option value="2000" id="options">Quezon</option>
+                                <option value="2000" id="options">Rizal</option>
+                        </select>
+
+                        <select class="select-short" name="residential_region" id="reg4b" required >
+                                <option value="2003" id="options">Marinduque</option>
+                                <option value="2002" id="options">Occidental Mindoro</option>
+                                <option value="2001" id="options">Oriental Mindoro</option>
+                                <option value="2000" id="options">Palawan</option>
+                                <option value="2000" id="options">Romblon</option>
+                        </select>
+                        
+                        <select class="select-short" name="residential_region" id="reg5" required >
+                                <option value="2003" id="options">Albay</option>
+                                <option value="2002" id="options">Camarines Norte</option>
+                                <option value="2001" id="options">Camarines Sur</option>
+                                <option value="2000" id="options">Catanduanes</option>
+                                <option value="2000" id="options">Masbate</option>
+                                <option value="2000" id="options">Sorsogon</option>
+                        </select>
+
+                        <select class="select-short" name="residential_region" id="reg6" required >
+                                <option value="2003" id="options">Aklan</option>
+                                <option value="2002" id="options">Antique</option>
+                                <option value="2001" id="options">Capiz</option>
+                                <option value="2000" id="options">Guimaras</option>
+                                <option value="2000" id="options">Iloilo</option>
                         </select>
 
 
